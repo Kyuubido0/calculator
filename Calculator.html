@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Calculator.css"/>
+		<script src="Calculator.js"></script>
+	</head>
+	
+	<body>
+					
+			<div class="box">
+				
+			<div class="display"><input type="text" id="d"></div>
+				
+			<div class="key-buttons">
+				
+				<p>
+					<input type="button" class="button blue" value="7" onclick='v("7")'>
+					<input type="button" class="button blue" value="8" onclick='v("8")'>
+					<input type="button" class="button blue" value="9" onclick='v("9")'>
+					<input type="button" class="button pink" value="*" onclick='v("*")'>
+				</p>
+				<p>
+					<input type="button" class="button blue" value="4" onclick='v("4")'>
+					<input type="button" class="button blue" value="5" onclick='v("5")'>
+					<input type="button" class="button blue" value="6" onclick='v("6")'>
+					<input type="button" class="button pink" value="-" onclick='v("-")'>
+				</p>
+				
+				<p>
+					<input type="button" class="button blue" value="1" onclick='v("1")'>
+					<input type="button" class="button blue" value="2" onclick='v("2")'>
+					<input type="button" class="button blue" value="3" onclick='v("3")'>
+					<input type="button" class="button pink" value="+" onclick='v("+")'>
+				</p>
+				
+				<p>
+					<input type="button" class="button blue" value="0" onclick='v("0")'>
+					<input type="button" class="button blue" value="." onclick='v(".")'>
+					<input type="button" class="button blue" value="C" onclick='c("")'>
+					<input type="button" class="button pink" value="/" onclick='v("/")'>
+				</p>
+				<p>
+					<input type="button" class="button pink" value="ln" onclick='log()'>
+					<input type="button" class="button pink" value="x^2" onclick='pow()'>
+					<input type="button" class="button pink" value="sqrt" onclick='sqrt()'>
+					<input type="button" class="button pink" value="%" onclick='v("%")'>
+
+				</p>
+				<p>
+					<input type="button" class="button pink" value="tan" onclick='tan()'>
+					<input type="button" class="button pink" value="sin" onclick='sin()'>
+					<input type="button" class="button pink" value="cos" onclick='cos()'>
+					<input type="button" class="button orange" value="=" onclick='e()'>
+				</p>
+				<p>
+					<input type="button" class="button pink" value="PI" onclick='PI()'>
+					<input type="button" class="button pink" value="!" onclick='factorial()'>
+					<input type="button" class="button pink" value="e" onclick='enat()'>
+				</p>
+			</div>
+				
+			</div>
+		
+	</body>
+</html>
